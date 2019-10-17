@@ -97,6 +97,16 @@
 2. **后台的管理页面**
 <img src="https://github.com/zhouweiwei18/Haircut-Cashier-System/blob/master/%E6%AF%95%E8%AE%BE%E5%9B%BE%E7%89%87%E7%B4%A0%E6%9D%90/%E7%AE%A1%E7%90%86%E9%A1%B5%E9%9D%A2.png" height="500px" width="900px" >
 
+3. **给预约用户结账**
+<img src="https://github.com/zhouweiwei18/Haircut-Cashier-System/blob/master/%E6%AF%95%E8%AE%BE%E5%9B%BE%E7%89%87%E7%B4%A0%E6%9D%90/%E7%90%86%E5%8F%91%E5%B8%88%E7%BB%93%E8%B4%A6.png" height="330px" width="480px" >
+<img src="https://github.com/zhouweiwei18/Haircut-Cashier-System/blob/master/%E6%AF%95%E8%AE%BE%E5%9B%BE%E7%89%87%E7%B4%A0%E6%9D%90/%E9%A1%BE%E5%AE%A2%E6%B6%88%E8%B4%B9%E5%88%97%E8%A1%A8.png" height="330px" width="480px" >
+
+4. **生成订单**
+<img src="https://github.com/zhouweiwei18/Haircut-Cashier-System/blob/master/%E6%AF%95%E8%AE%BE%E5%9B%BE%E7%89%87%E7%B4%A0%E6%9D%90/%E8%AE%A2%E5%8D%95.png" height="330px" width="480px" >
+
+5. **线下消费**
+<img src="https://github.com/zhouweiwei18/Haircut-Cashier-System/blob/master/%E6%AF%95%E8%AE%BE%E5%9B%BE%E7%89%87%E7%B4%A0%E6%9D%90/%E7%BA%BF%E4%B8%8B%E6%B6%88%E8%B4%B9.png" height="330px" width="480px" >
+
 ## _需要用到的技术_
 * SpringBoot + Mybatis
 * Shiro 权限管理
