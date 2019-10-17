@@ -58,7 +58,7 @@
 * 修改员工信息：
 > 涨基本工资(根据理发师被预约的次数和线下为顾客服务次数综合考虑)、员工状态(辞职，在班，外出学习...)
 * 管理员: 
-> 只有管理员可以使用
+> 只有管理员可以使用(超级管理员--管理--管理员)
 
 ### _(消费者) 顾客管理_
 * 新增顾客: 
@@ -85,6 +85,24 @@
 
 ***
 
-简要通过图例说明下:
+## 简要通过图例说明下:
+1. **后台首页**
+> 若要仅仅进入系统的浏览，无需登录，可立即使用(游客)。若是要对数据操作啥的，需要管理员权限(一般管理员:员工  超级管理员:老板)
+<img src="https://github.com/zhouweiwei18/Haircut-Cashier-System/blob/master/%E6%AF%95%E8%AE%BE%E5%9B%BE%E7%89%87%E7%B4%A0%E6%9D%90/%E5%90%8E%E5%8F%B0%E9%A6%96%E9%A1%B5.png" height="330px" width="480px" >
+<img src="https://github.com/zhouweiwei18/Haircut-Cashier-System/blob/master/%E6%AF%95%E8%AE%BE%E5%9B%BE%E7%89%87%E7%B4%A0%E6%9D%90/%E7%AE%A1%E7%90%86%E5%91%98%E7%99%BB%E5%BD%95.png" height="330px" width="480px" >
+
+
+***
+
+2. **后台的管理页面**
+<img src="https://github.com/zhouweiwei18/Haircut-Cashier-System/blob/master/%E6%AF%95%E8%AE%BE%E5%9B%BE%E7%89%87%E7%B4%A0%E6%9D%90/%E7%AE%A1%E7%90%86%E9%A1%B5%E9%9D%A2.png" height="500px" width="900px" >
+
+## _需要用到的技术_
+* SpringBoot + Mybatis
+* Shiro 权限管理
+* 第三方接口接入: `短信接口接入`,`扫码支付接口`,`第三方登录:QQ互联`...
+* 数据库 : MySQL数据库
+* Linux服务器
+
 
 
