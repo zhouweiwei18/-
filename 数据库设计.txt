@@ -1,0 +1,33 @@
+bussiness表:
+role表:
+member表:
+position表:
+employee表:
+	positionid 外键
+	employee --- position  1:1
+	
+	roleid 外键
+	employee --- position  1:1
+
+customer表:
+	roleid 外键
+	customer --- role  1:1
+	
+	memberid 外键
+	customer --- member  1:1
+
+servicelist表:
+	orderid 外键
+	order --- servicelist  1:n
+	
+	barber 外键
+	employee --- servicelist  1:n
+
+order表:
+	customerid 外键
+	customer --- order  1:n
+
+product表:
+	orderid 外键
+	order --- product  1:n
+
